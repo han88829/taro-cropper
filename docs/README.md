@@ -4,7 +4,7 @@
 
 > # taro-cropper
 >
-> 项目地址: [https://github.com/SunnyQjm/taro-cropper](https://github.com/SunnyQjm/taro-cropper)
+> taro3.0无法直接使用，克隆项目兼容taro3.0.7 项目地址: [https://github.com/SunnyQjm/taro-cropper](https://github.com/SunnyQjm/taro-cropper)
 
 TaroCropper 是Taro小程序框架下使用的图片裁剪，基于canvasAPI进行实现，支持滑动和缩放，目前测试在微信小程序端, QQ小程序端, 支付宝小程序端, 字节跳动小程序端, 百度小程序端和H5端可以正常使用。
 
