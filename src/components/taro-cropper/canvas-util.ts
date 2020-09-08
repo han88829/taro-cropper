@@ -1,5 +1,4 @@
-import {Color} from "@tarojs/taro";
-import CanvasContext = Taro.CanvasContext;
+import {Color,CanvasContext} from "@tarojs/taro";
 
 function compareVersion(v1, v2) {
   v1 = v1.split('.');
