@@ -2,41 +2,49 @@
 [![](https://img.shields.io/npm/l/taro-cropper.svg?style=flat-square)](https://www.npmjs.com/package/taro-cropper)
 [![](https://img.shields.io/npm/dt/taro-cropper.svg?style=flat-square)](https://www.npmjs.com/package/taro-cropper)
 
-> # taro-cropper
+> # taro-cropper3
 >
-> taro3.0无法直接使用，克隆项目兼容taro3.0.7 项目地址: [https://github.com/SunnyQjm/taro-cropper](https://github.com/SunnyQjm/taro-cropper)
+> 兼容3.0版本
 
 TaroCropper 是Taro小程序框架下使用的图片裁剪，基于canvasAPI进行实现，支持滑动和缩放，目前测试在微信小程序端, QQ小程序端, 支付宝小程序端, 字节跳动小程序端, 百度小程序端和H5端可以正常使用。
 
 > ### 使用方式
 
-- **首先用npm安装**
+* **首先用npm安装**
 
-  ```bash
-  npm install --save taro-cropper
+  
+
+``` bash
+  npm install --save taro-cropper3
   ```
 
-- **引入组件库**
+* **引入组件库**
 
-  ```typescript
+  
+
+``` typescript
   import {
     TaroCropper
-  } from 'taro-cropper';
+  } from 'taro-cropper3';
   ```
 
-- 在项目配置文件 `config/index.js` 中添加如下配置
+* 在项目配置文件 `config/index.js` 中添加如下配置
 
-  ```javascript
+  
+
+``` javascript
   h5: {
-      esnextModules: ['taro-cropper']
+      esnextModules: ['taro-cropper3']
   }
-  ```
+```
 
-  该配置的作用是，在H5端使用本库的时候，对应的单位会进行转换（`px` => `rem`）
+  该配置的作用是，在H5端使用本库的时候，对应的单位会进行转换（ `px` => `rem` ）
 
-- **在代码中使用**
+* **在代码中使用**
 
-  ```typescript
+  
+
+``` typescript
   <TaroCropper
     fullScreen
     onCut={res => {
