@@ -73,7 +73,8 @@
 		"stylelint": "9.3.0",
 		"stylelint-config-taro-rn": "2.0.4",
 		"stylelint-taro-rn": "2.0.4",
-		"typescript": "^3.0.1"
+		"typescript": "^3.0.1",
+     "react": "^16.10.0",
 	},
 	"files": [
 		"dist",
